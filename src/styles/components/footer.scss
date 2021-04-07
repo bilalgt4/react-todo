@@ -1,0 +1,38 @@
+.footer-container {
+	border: 5px solid red;
+	display: grid;
+	padding-top: 26px;
+	padding-bottom: 26px;
+	grid-template-columns: auto auto auto;
+	justify-items: center;
+	background-color: black;
+
+	.company-info {
+		color: white;
+	}
+
+	.page-links {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		gap: 20px;
+		border-left: 1px solid grey;
+		border-right: 1px solid grey;
+
+		width: 40vw;
+		text-align: center;
+		.link {
+			color: white;
+		}
+	}
+
+	.contact-detail {
+		color: white;
+		.contactusfooter {
+			text-align: center;
+		}
+		.contactnofooter {
+			text-align: center;
+		}
+	}
+}

@@ -1,0 +1,27 @@
+.header-container {
+	border: 5px solid red;
+	background-color: black;
+	.heading {
+		text-align: center;
+		color: white;
+	}
+	.header-options {
+		display: flex;
+		text-align: center;
+		justify-content: center;
+		grid-template-columns: 1fr 1fr 1fr;
+		gap: 10px;
+		padding-bottom: 10px;
+		padding-top: 10px;
+
+		.link {
+			color: white;
+			width: 8vw;
+
+			&.hasSeparatorBorder {
+				border-right: 1px solid grey;
+				border-left: 1px solid grey;
+			}
+		}
+	}
+}
